@@ -1,0 +1,40 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#encabezado{
+    background-color: rgb(46, 224, 255);
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+table, tr, th{
+    border: groove 1px black;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+tr:nth-child(even){
+    background-color: lightskyblue;
+}
+
+tr:hover{
+    background-color: #aaa;
+}
+
+body{
+    background: url(img/imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
